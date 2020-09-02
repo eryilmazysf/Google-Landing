@@ -1,0 +1,175 @@
+header a {
+    color: black;
+    margin: 10px 10px;
+    text-decoration: none;
+    font-size: small;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+div {
+    display: block;
+}
+
+.left-side {
+    display: flex;
+    float: left;
+}
+
+.right-side {
+    display: flex;
+    float: right;
+}
+
+#appicon {
+    opacity: 0.5;
+    margin-top: -10px;
+}
+
+#appicon:hover {
+    opacity: 1;
+}
+
+.btn {
+    background-color: #4285F1;
+    color: white;
+    width: 5rem;
+    height: 1.7rem;
+    margin: 5px;
+    border-radius: 5px;
+    font-family: 'Alata', sans-serif;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.clear {
+    clear: both;
+}
+
+#google {
+    height: 95px;
+    width: 272px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+.search {
+    text-align: center;
+}
+
+#search-bar {
+    width: 25rem;
+    height: 2rem;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding-left: 40px;
+    outline: none;
+    margin-left: 50px;
+}
+
+#search-bar:hover {
+    box-shadow: 10px 10px 10px lightgrey;
+}
+
+#glass {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    position: relative;
+    left: -400px;
+}
+
+#mic {
+    width: 15px;
+    height: 20px;
+    vertical-align: middle;
+    position: relative;
+    left: -55px;
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 20px;
+    word-spacing: 50px;
+}
+
+#btn1 {
+    border: none;
+    height: 25px;
+    width: 10rem;
+    color: rgb(178, 180, 178, 0.7);
+    border-radius: 10px;
+    outline: none;
+}
+
+#btn1:hover {
+    color: black;
+    cursor: pointer;
+    background-color: lightgray;
+    box-shadow: 5px 5px 10px;
+}
+
+#btn2 {
+    border: none;
+    height: 25px;
+    width: 10rem;
+    border-radius: 10px;
+    color: rgb(178, 180, 178, 0.7);
+    outline: none;
+}
+
+#btn2:hover {
+    color: black;
+    cursor: pointer;
+    background-color: lightgray;
+    box-shadow: 5px 5px 10px;
+}
+
+.lang {
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    padding-left: 5px;
+    background-color: #f2f2f2;
+    line-height: 40px;
+    font-size: 14px;
+    /* border-top: 1px solid #e4e4e4; */
+    position: fixed;
+    bottom: 0;
+}
+
+footer a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.country {
+    border-bottom: 1px solid #e4e4e4;
+    margin-left: 13px;
+    color: #5f6368;
+}
+
+.footer-links {
+    color: #5f6368;
+}
+
+.footer-left {
+    float: left;
+}
+
+.footer-right {
+    float: right;
+    margin-right: 25px;
+}
